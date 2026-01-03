@@ -24,9 +24,6 @@ Highlights:
 -- =============================================================================
 -- Create Report: gold.report_products
 -- =============================================================================
-IF OBJECT_ID('gold.report_products', 'V') IS NOT NULL
-    DROP VIEW gold.report_products;
-GO
 
 CREATE VIEW gold.report_products
 AS
@@ -118,4 +115,4 @@ SELECT
         ELSE total_sales * 1.0 / lifespan
     END AS avg_monthly_revenue
 FROM product_aggregations;
-GO
+
