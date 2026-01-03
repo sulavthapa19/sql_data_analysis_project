@@ -1,2 +1,2 @@
 # sql_data_analysis_project
-Data Analytics Project Built on ETL Pipelines with Gold-Layer Star Schema.
+This repository contains a hands-on SQL data analytics project built on top of an ETL pipeline and a Gold-layer star schema. The project focuses on using SQL to analyze sales data after it has been cleaned and modeled. It includes queries for basic reporting, business KPIs, customer and product analysis, and time-based trends. The data is organized into fact and dimension tables to reflect real-world analytics use cases. The goal of this project is to demonstrate practical SQL skills, data modeling understanding, and how analytics is done on a structured data warehouse.
